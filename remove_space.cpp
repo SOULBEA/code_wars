@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-string no_space(const string& ent){
+string no_space(const string& x){
   string result;
   for(char c : ent){
     if(c != ' '){
@@ -13,9 +13,9 @@ string no_space(const string& ent){
 }
 
 int main(){
-  string ent;
+  string x;
   cout<<"enter a string: ";
-  cin>>ent;
-  cout<<no_space(ent)<<endl;
+  cin>>x;
+  cout<<no_space(x)<<endl;
   return 0;
 }
